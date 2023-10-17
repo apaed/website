@@ -268,18 +268,18 @@
                 <!-- <div class="contact-title" bis_skin_checked="1">
                     <div class="pre-heading" bis_skin_checked="1">Submit your inquiries</div>
                     </div> -->
-                <form method="POST" class="cft-form" data-comrade-form="0akeEwGlFU" data-cb-wrapper="true">
+                <form method="POST" class="cft-form" action="contact.php">
                     <div class="cft-group" bis_skin_checked="1">
                         <div class="row" bis_skin_checked="1">
                             <div class="col-6" bis_skin_checked="1">
                                 <div class="cft-field" bis_skin_checked="1">
-                                    <input required="" data-akismet="name" type="text" name="firstname"
+                                    <input required="" data-akismet="name" type="text" name="first_name"
                                         placeholder="First Name *" class="form-control vInput  mb-2" value="">
                                 </div>
                             </div>
                             <div class="col-6" bis_skin_checked="1">
                                 <div class="cft-field" bis_skin_checked="1">
-                                    <input required="" data-akismet="name" type="text" name="lastname"
+                                    <input required="" data-akismet="name" type="text" name="last_name"
                                         placeholder="Last Name *" class="form-control vInput mb-2" value="">
                                 </div>
                             </div>
@@ -300,7 +300,7 @@
                                 </div>
                             </div>
                             <div class="col-12" bis_skin_checked="1">
-                                <div class="cft-field" bis_skin_checked="1"><select name="what_can_we_help_you_with_"
+                                <div class="cft-field" bis_skin_checked="1"><select name="inquiry_type"
                                         class="form-control select vSelect text-placeholder mb-2">
                                         <option value="" disabled="" selected="">What can we help you with?</option>
                                         <option value="Need more visitors, leads and/or sales">Need more visitors,
@@ -317,12 +317,13 @@
                             </div>
                             <div class="col-12" bis_skin_checked="1">
                                 <div class="cft-field" bis_skin_checked="1"><textarea data-akismet="message"
-                                        name="message" placeholder="Please, tell us your project information" rows="10"
+                                        name="inquiry_msg" placeholder="Please, tell us your project information"
+                                        rows="10"
                                         class="form-control vTextArea mb-2"></textarea></div>
                             </div>
                             <div class="col-12" bis_skin_checked="1">
-                                <div class="cft-field" bis_skin_checked="1"><button type="submit" name="submit"
-                                        class="btn btn-primary" disabled>Submit Your Request</button></div>
+                                <div class="cft-field" bis_skin_checked="1"><input type="submit" name="submit"
+                                        class="btn btn-primary"></div>
                             </div>
                         </div>
                     </div>
