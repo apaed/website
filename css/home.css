@@ -46,7 +46,7 @@ nav {
 
 .contact-us {
   background-color: #ebf2f8;
-  padding: 200px 0 50px;
+  padding: 170px 0 50px;
 }
 
 .contact-us .container {
@@ -151,8 +151,9 @@ nav {
 }
 
 #sample_bg_overlay {
-  opacity: 0.5;
+  /* opacity: 0.5; */
   clip-path: polygon(0 8%, 100% 0, 100% 14%, 0 90.5%);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));
 }
 
 #sample_bg_overlay h2 {
@@ -208,7 +209,7 @@ nav {
 
 @media only screen and (max-width: 1024px) {
   .contact-us {
-    padding: 100px 0 40px;
+    padding: 120px 0 40px;
   }
 }
 
@@ -228,6 +229,7 @@ nav {
   padding-bottom: 60px;
   padding-top: 200px;
   background: url("../imgs/car_parts.jpg");
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("../imgs/car_parts.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
